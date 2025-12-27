@@ -7,10 +7,13 @@
 font-family: Philosopher-Regular;
 src: url(../fonts/Philosopher-Regular.ttf);
 }
-
+html{
+font-size: 10rem;
+}
 
 body {
   background-color: #ffe2b0;
+  padding-top: 20px;
 }
 
 header {
@@ -31,71 +34,80 @@ li {
 li:last-child {
   margin-right: 0;
 }
-
+a:hover{
+ transform:scale(100%)rotate(10deg)
+}
 a {
   color: black;
   font-size: 18px;
   text-decoration: none;
   text-transform: uppercase;
+  display: inline-block;
+  transition: 0.9s all;
 }
 
 nav {
-  margin-bottom: 20px;
+  margin-bottom: 2rem;
   font-family: Roboto, sans-serif;
-  font-weight: 700;
+  font-weight: 70rem;
 }
 
 .section-image {
   position: relative;
   background-image: url(../img/background_image.jpg);
-  height: 640px;
+  height: 64rem;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  margin-bottom: 20px;
+  margin-bottom: 2rem;
 }
+.section-image__block:hover{
+transform: translateY(-10px);
+ transition: 0.9s all;
 
+
+}
 .section-image__block {
   position: absolute;
   top: 54%;
   left: 50%;
-  height: 190px;
-  width: 420px;
+  height: 1.9rem;
+  width: 4.2rem;
   background: linear-gradient(
     180deg,
     rgba(244, 213, 178, 0.8) 0%,
     rgba(234, 156, 65, 0.8) 100%
   );
-  padding-top: 15px;
+  padding-top: 1.5rem;
 }
 
 .section-image__border {
   border: 1px solid black;
-  height: 160px;
-  width: 390px;
+  height: 16rem;
+  width: 39rem;
   margin: 0 auto;
-  padding: 17px 0 0 28px;
+  padding: 1.7rem 0 0 2.8rem;
 }
 
 .section-image__title {
-  font-size: 36px;
-  margin-bottom: 9px;
+  font-size: 3.6rem;
+  margin-bottom: .9rem;
   font-family: Philosopher-Regular, sans-serif;
-  font-weight: 400;
+  font-weight: 40rem;
 }
 
 .section-image__text {
-  font-size: 12px;
+  font-size: 1.2rem;
   font-family: Roboto, sans-serif;
-  font-weight: 500;
+  font-weight: 50rem;
 }
 
 .section-description__icon-box {
   text-align: center;
-  margin: right 76px;
+  margin: right 7.6rem;
 }
 .section-description__icon-box img {
-  margin-right: 76px;
+  margin-right: 7.6rem;
 }
 
 .section-description__icon-box:last-child {
@@ -104,53 +116,53 @@ nav {
 
 .section-description__icon-box {
   text-align: center;
-  margin-bottom: 20px;
+  margin-bottom: 2rem;
 }
 .section-description__icon-box img {
-  margin-right: 76px;
+  margin-right: 7.6rem;
 }
 .section-description__icon-box img:last-child {
   margin-right: 0;
 }
 .section-description__text-box {
-  width: 1000px;
+  width: 10rem;
   text-align: center;
   margin: 0 auto;
 }
 .section-description__text {
-  font-size: 18px;
+  font-size: 1.8rem;
 }
 .section-description__title {
-  font-size: 96px;
+  font-size: 9.6rem;
   font-family: Philosopher-Regular, sans-serif;
-  font-weight: 400;
+  font-weight: 40rem;
 }
 
 .section-description {
-  margin-bottom: 20px;
+  margin-bottom: 2rem;
 }
 .red {
   color: #f15b40;
 }
 .section-map {
-  margin-bottom: 20px;
+  margin-bottom: 2rem;
   text-align: center;
 }
 
 .section-map__line {
   border-bottom: 1px solid #999999;
-  width: 1024px;
+  width: 102.4rem;
   margin: 0 auto;
 }
 .section-map__title {
-  font-size: 36px;
+  font-size: 3.6rem;
   text-transform: uppercase;
   text-align: center;
-  margin-bottom: 20px;
+  margin-bottom: 2rem;
 }
 
 iframe{
-margin-bottom: 20px;
+margin-bottom: 2rem;
 }
 
 a:hover {
@@ -161,6 +173,6 @@ transition: transform 1s;
 }
 img:hover{
 transform: scale(120%);
-translate: 10px;
+filter: drop-shadow(-0.5rem 0.3rem 0.5rem rgba(0, 0, 0, 0.5));
 }
 
