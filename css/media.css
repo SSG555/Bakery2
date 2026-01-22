@@ -20,5 +20,7 @@
   .block-adaptive {
     display: block;
   }
-  /*.section-description__icon-box {height: 22rem;} */
+  .section-description__icon-box {
+    height: 18rem;
+  }
 }

@@ -89,14 +89,14 @@ nav {
 }
 
 .section-image__title,  
-.block-adaptive {
+.block-adaptive__title {
   font-size: 3.6rem;
   margin-bottom: 0.9rem;
   font-family: Philosopher-Regular, sans-serif;
   font-weight: 4rem;
 }
 
-.section-image__text {
+.section-image__text, .block-adaptive__text {
   font-size: 1.2rem;
   font-family: Roboto, sans-serif;
   font-weight: 5rem;
@@ -119,15 +119,12 @@ nav {
 */
 
 .section-description__icon-box {
-  text-align: center;
+  display: flex;
+  justify-content: center;
+  gap: 7.6rem;
   margin-bottom: 2rem;
 }
-.section-description__icon-box img {
-  margin-right: 7.6rem;
-}
-.section-description__icon-box img:last-child {
-  margin-right: 0;
-}
+
 .section-description__text-box {
   width: 90%;
   text-align: center;
@@ -188,6 +185,6 @@ img:hover {
   margin: 0 auto 2rem auto;
 }
 
-.block-adaptibe__text [open]{
-padding-bottom:2rem;
+.block-adaptive__text[open]{
+padding-bottom: 2rem;
 }
