@@ -5,10 +5,10 @@
   }
 }
 .section-description__title {
-  font-size: 8rem;
+  font-size: 6rem;
 }
 
-/* 850 */
+/* 860 */
 @media (max-width: 860px) {
   .section-description__title {
     font-size: 6rem;
@@ -22,5 +22,26 @@
   }
   .section-description__icon-box {
     height: 18rem;
+  }
+  .section-description__icon-box {
+height:auto;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap:4.5rem; 
+}
+
+/*620*/
+}
+@media (max-width: 620px ) {
+ul{
+gap:0;
+justify-content: space-evenly;
+}
+}
+/*390px*/
+@media (max-width:390px) {
+  html{
+
+  font-size: 8px;
   }
 }
